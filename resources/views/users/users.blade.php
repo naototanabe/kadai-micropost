@@ -1,5 +1,3 @@
-resources/views/users/users.blade.php
-
 @if (count($users) > 0)
     <ul class="list-unstyled">
         @foreach ($users as $user)
